@@ -55,7 +55,7 @@
   
   .radiobtn:checked {
     accent-color:#FDC980;
-    border-color: #FDC980;
+    border-color: #FDC980#FDC980;
   
   }
   .quizbtn{
@@ -72,9 +72,7 @@
       font-size: 15px;
       align-items: center;
       text-align: center;
-      justify-self: center;
-
-  
+      justify-self: center;  
 }
 .quizbtn:hover{
     background-color: #FDC980;
