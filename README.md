@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Here you can see the [figma prototype](https://www.figma.com/file/s12Ts5NGQkXvwZMJkhj9PW/i-love-floppa?node-id=0%3A1&t=gJW0bCq6fKdG3MUr-1) to this project
+
 ## Available Scripts
 
 In the project directory, you can run:
