@@ -1,0 +1,121 @@
+.quiztitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.imgquiz{
+    width:100px
+}
+.quizcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px ;
+}
+.questioncontainer{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+}
+.optioncontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.question {
+    color: #78533E;
+    font-family: 'Goblin One';
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .option {
+    color: rgb(53, 49, 49);
+    font-family: 'Inika';
+    font-weight: bold;
+    text-align: center;
+    margin: 5px;
+    font-size: 20px;
+    
+  }
+  label {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  input[type="radio"] {
+    margin: 5px;
+  }
+  
+  .radiobtn:checked {
+    accent-color:#FDC980;
+    border-color: #FDC980;
+  
+  }
+  .quizbtn{
+    background-color: #78533E;
+      color: #fff;
+      font-family: 'Inika';
+      margin: 10px;
+      padding: 15px;
+      border-radius: 45px;
+      border: none;
+      cursor: pointer;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      font-weight: bold;
+      font-size: 15px;
+      align-items: center;
+      text-align: center;
+      justify-self: center;
+
+  
+}
+.quizbtn:hover{
+    background-color: #FDC980;
+    color:#78533E;
+}
+@media only screen and (max-width: 767px) {
+  .imgquiz{
+    width: 50px;
+  }
+  .quiztitle{
+    padding: 15px;
+  }
+  .quizcontainer{
+    padding: 15px;
+  }
+  .question{
+    font-size: 15px;
+  }
+  .option{
+    font-size: 10px;
+    margin: 10px;
+  }
+  label{
+    margin: 5px;
+  }
+  .optioncontainer{
+    flex-direction: column;
+}
+  .quizbtn{
+    font-size: 10px;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .imgquiz{
+    width: 80px;
+  }
+  .quiztitle{
+    padding: 15px;
+  }
+  .quizcontainer{
+    padding: 15px;
+  }
+  
+}

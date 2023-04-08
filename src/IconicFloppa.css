@@ -1,0 +1,143 @@
+.contentcontainer{
+    margin-top: 200px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    font-family: 'Goblin One';
+    text-align: center;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    white-space: nowrap;
+    color: #78533E;
+    font-size: 40px;
+    margin: 20px;
+}
+.subtitle{
+    font-family: 'Inika';
+    text-align: center;
+    font-weight: bold;
+    margin: 15px;
+}
+.iconicfloppas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+.photocontainer{
+    border-radius: 30px;
+    padding: 40px;
+    padding-bottom: 20px;
+    background-color: #78533E;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 40px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.photocontainer img{
+    border-radius: 30px;
+    height: 350px;
+    width: 300px;
+    
+}
+.floppaname{
+    font-family: 'Inika';
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+.socialmedia{
+    font-family: 'Inika';
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+}
+.followbtn{
+    background-color: #78533E;
+      color: #fff;
+      font-family: 'Inika';
+      margin: 10px;
+      padding: 15px;
+      border-radius: 45px;
+      border: none;
+      cursor: pointer;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      font-weight: bold;
+      font-size: 15px;
+      align-items: center;
+      text-align: center;
+      justify-self: center;
+  
+}
+.followbtn:hover{
+    background-color: #FDC980;
+    color:#78533E;
+}
+
+@media only screen and (max-width: 767px) {
+    .contentcontainer{
+       margin-top: 150px;
+    }
+    .title{
+        font-size: 20px;
+        margin: 5px;
+    }
+    .subtitle{
+        font-size: 10px ;
+        margin: 5px;
+    }
+    .iconicfloppas{
+    flex-direction: column;
+    padding: 10px;
+   }
+   .photocontainer{
+    padding: 20px;
+    margin: 20px;
+
+}
+   .photocontainer img{
+    height: 100px;
+    width: 150px;
+   }
+   .floppaname{
+    font-size: 15px;
+   }
+   .followbtn{
+    font-size: 10px;
+   }
+  }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .contentcontainer{
+        margin-top: 150px;
+     }
+     .title{
+         font-size: 30px;
+     }
+     .subtitle{
+         font-size: 25px ;
+     }
+     .iconicfloppas{
+     flex-direction: column;
+     padding: 10px;
+    }
+    .photocontainer{
+     padding: 20px;
+     margin: 20px;
+ 
+ }
+    .photocontainer img{
+     height: 200px;
+     width: 250px;
+    }
+   
+  }
