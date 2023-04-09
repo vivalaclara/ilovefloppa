@@ -1,8 +1,12 @@
+#Description 
+An interactive app as a tribute to my favorite animal, the caracal (also known online as big floppa). 
+On this app, you can watch caracal videos on floppa TV, take a quiz about the caracal and find links to social media profiles of famous (iconic even!) floppas
+
+Here you can see the [figma prototype](https://www.figma.com/file/s12Ts5NGQkXvwZMJkhj9PW/i-love-floppa?node-id=0%3A1&t=gJW0bCq6fKdG3MUr-1) to this project
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-Here you can see the [figma prototype](https://www.figma.com/file/s12Ts5NGQkXvwZMJkhj9PW/i-love-floppa?node-id=0%3A1&t=gJW0bCq6fKdG3MUr-1) to this project
 
 ## Available Scripts
 
