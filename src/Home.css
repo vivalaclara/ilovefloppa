@@ -24,7 +24,7 @@
   background: #78533E;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   align-items: center;
-  padding: 20px;
+  padding: 15px;
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -33,12 +33,12 @@
   top:0%;
   }
   .githcontainer{
-      margin: 15px;
+      margin: 0 15px;
   }
   .imggithub{
       border-radius: 50%;
-      width: 100px;
-      height: 100px;
+      width: 80px;
+      height: 80px;
       border: 1px solid #FDC980;
       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
@@ -60,7 +60,7 @@
   
   }
   .homepagedecor{
-      margin-top: 200px;
+      margin-top: 150px;
   }
   .hpdecorcontainer {
       position: relative;
@@ -91,7 +91,7 @@
       font-weight: bold;
       color: #272424;
       font-size: 20px;
-      margin-top: 30px;
+      margin-top: 0px;
       white-space:normal;
       text-align: center;
   }
