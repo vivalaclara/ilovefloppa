@@ -1,4 +1,4 @@
-#Description 
+# Description 
 An interactive app as a tribute to my favorite animal, the caracal (also known online as big floppa). 
 On this app, you can watch caracal videos on floppa TV, take a quiz about the caracal and find links to social media profiles of famous (iconic even!) floppas
 
