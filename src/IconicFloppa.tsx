@@ -25,8 +25,8 @@ const IconicFloppa = () => {
               <div className='iconicfloppas'>
               <div className='photocontainer'> <img src={gosha} alt="gosha, the og big floppa"  />
                <p className='floppaname'> GOSHA </p>
-               <p className='socialmedia'> @prozhony </p>
-               <Link to="https://www.instagram.com/prozhony/"> <button className='followbtn'> FOLLOW </button> </Link>
+               <p className='socialmedia'> @bigfloppa.gosha</p>
+               <Link to="https://www.instagram.com/bigfloppa.gosha/"> <button className='followbtn'> FOLLOW </button> </Link>
               </div>
               <div className='photocontainer'> <img src={pumba} alt="pumba, world famous hiss"  />
                <p className='floppaname'> PUMBA </p>
